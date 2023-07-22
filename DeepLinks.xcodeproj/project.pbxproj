@@ -8,17 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		CC3C0EF32A6A5A3600E19BC4 /* DeepLinksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C0EF22A6A5A3600E19BC4 /* DeepLinksApp.swift */; };
-		CC3C0EF52A6A5A3600E19BC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C0EF42A6A5A3600E19BC4 /* ContentView.swift */; };
+		CC3C0EF52A6A5A3600E19BC4 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C0EF42A6A5A3600E19BC4 /* CountryListView.swift */; };
 		CC3C0EF72A6A5A3700E19BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3C0EF62A6A5A3700E19BC4 /* Assets.xcassets */; };
 		CC3C0EFA2A6A5A3700E19BC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3C0EF92A6A5A3700E19BC4 /* Preview Assets.xcassets */; };
+		CC3C0F012A6A5A8A00E19BC4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C0F002A6A5A8A00E19BC4 /* Models.swift */; };
+		CC3C0F032A6A5C7500E19BC4 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C0F022A6A5C7500E19BC4 /* CountryView.swift */; };
+		CC3C0F052A6BA2D900E19BC4 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C0F042A6BA2D900E19BC4 /* CityView.swift */; };
+		CC3C0F072A6BA58C00E19BC4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C0F062A6BA58C00E19BC4 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC3C0EEF2A6A5A3600E19BC4 /* DeepLinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepLinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3C0EF22A6A5A3600E19BC4 /* DeepLinksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinksApp.swift; sourceTree = "<group>"; };
-		CC3C0EF42A6A5A3600E19BC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC3C0EF42A6A5A3600E19BC4 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
 		CC3C0EF62A6A5A3700E19BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC3C0EF92A6A5A3700E19BC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC3C0F002A6A5A8A00E19BC4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CC3C0F022A6A5C7500E19BC4 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		CC3C0F042A6BA2D900E19BC4 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		CC3C0F062A6BA58C00E19BC4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		CC3C0F082A6BA6B500E19BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		CC3C0EF12A6A5A3600E19BC4 /* DeepLinks */ = {
 			isa = PBXGroup;
 			children = (
+				CC3C0F082A6BA6B500E19BC4 /* Info.plist */,
 				CC3C0EF22A6A5A3600E19BC4 /* DeepLinksApp.swift */,
-				CC3C0EF42A6A5A3600E19BC4 /* ContentView.swift */,
+				CC3C0EF42A6A5A3600E19BC4 /* CountryListView.swift */,
+				CC3C0F022A6A5C7500E19BC4 /* CountryView.swift */,
+				CC3C0F042A6BA2D900E19BC4 /* CityView.swift */,
+				CC3C0F002A6A5A8A00E19BC4 /* Models.swift */,
+				CC3C0F062A6BA58C00E19BC4 /* Router.swift */,
 				CC3C0EF62A6A5A3700E19BC4 /* Assets.xcassets */,
 				CC3C0EF82A6A5A3700E19BC4 /* Preview Content */,
 			);
@@ -137,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC3C0EF52A6A5A3600E19BC4 /* ContentView.swift in Sources */,
+				CC3C0F012A6A5A8A00E19BC4 /* Models.swift in Sources */,
+				CC3C0F052A6BA2D900E19BC4 /* CityView.swift in Sources */,
+				CC3C0EF52A6A5A3600E19BC4 /* CountryListView.swift in Sources */,
 				CC3C0EF32A6A5A3600E19BC4 /* DeepLinksApp.swift in Sources */,
+				CC3C0F072A6BA58C00E19BC4 /* Router.swift in Sources */,
+				CC3C0F032A6A5C7500E19BC4 /* CountryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +287,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DeepLinks/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepLinks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +316,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DeepLinks/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepLinks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
